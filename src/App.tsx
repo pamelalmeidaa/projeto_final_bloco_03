@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Home from './assets/pages/home/Home';
-import Footer from './assets/components/footer/Footer';
-import Navbar from './assets/components/navbar/Navbar';
+import Home from './pages/home/Home';
+import Footer from './components/footer/Footer';
+import Navbar from './components/navbar/Navbar';
 
 function App() {
   return (
@@ -17,5 +17,7 @@ function App() {
     </BrowserRouter>
   );
 }
+
+
 
 export default App;
